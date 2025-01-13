@@ -1,0 +1,190 @@
+body {
+
+    background-color:  #02153b;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0; 
+     }
+
+     .center { text-align: center;}
+    
+     .bgh {background-color:  #02153b;
+        background-origin: content-box
+            
+    }
+
+     h5 {font-family: "Sarabun", serif;
+       }
+
+     .fontr {font-family: "Sarabun", serif;
+             font-size: 50px;
+            
+        }
+
+        a { font-family: "Sarabun", serif;
+            font-size: 18px;}
+
+        
+    h2 {color: rgb(255, 255, 255);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* dropdown */
+      
+        
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .menu-item {
+            position: relative;
+            margin-right: 50px;
+        }
+        
+        .menu-item a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 17px 13px;
+            display: inline-block;
+            font-family: "Sarabun", serif;
+        }
+        
+        .menu-item:hover a {
+            background-color: #02153b;
+            position: relative;
+        }
+        
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 100;
+            right: 100;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: none;
+            z-index: 1000;
+        }
+        
+        .dropdown li {
+            margin: 50;
+           
+        }
+        
+        .dropdown li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: "Sarabun", serif;
+            font-size: 15px;
+        }
+        
+        .dropdown li a:hover {
+            background-color: #3d5991;
+        }
+        
+        .menu-item:hover .dropdown {
+            display: block;
+            
+        }
+
+
+
+
+        /* card */
+
+        .card-container {
+            display: flex;
+            gap: 0px;
+            justify-content: center;
+            padding: 20x;
+          }
+          
+          .card {
+        
+            position: relative;
+            width: 300px;
+            height: 300px;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        
+          }
+          
+          .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+          }
+          
+          .card-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 150px;
+          }
+          
+          .card h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+          }
+          
+          .card p {
+            font-size: 1em;
+            margin-bottom: 20px;
+          }
+          
+          .card a {
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #fff;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+          }
+          
+          .card a:hover {
+            background-color: #fff;
+            color: #000;
+          }
+
+        .bg1 {background: url('images/ca2.jpg');
+        }
+        
+        .bg2 {background-image: url(images/tggs_viewwide.jpg);
+            
+        }
+
+        .bg3 {background-image: url(images/ca2.jpg);
+           
+        }
+
+        .bg4 {background-image: url(images/tggs_viewwide.jpg);
+            
+        }
+            
+    
